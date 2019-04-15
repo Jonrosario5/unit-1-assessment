@@ -1,0 +1,33 @@
+.mainContainer {
+    margin-top: 25%;
+    display: flex;
+    font-size: 100px;
+    flex-direction: column;
+    align-items: center;
+    background: yellow;
+}
+
+.inputFormElements {
+    height: 50px;
+    width: 50px;
+    margin: -4px;
+}
+
+.incrementButtons {
+    background: darkgray;
+    color: white    
+}
+
+.incrementButtons:hover {
+    background: white;
+    color: black;
+}
+
+.incrementValue {
+    text-align: center;
+
+}
+
+#negativeNumber{
+    color:red;
+}
